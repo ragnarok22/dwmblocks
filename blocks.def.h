@@ -5,6 +5,7 @@
 static const Block blocks[] = {
 	/*Icon*/	/*Command*/		    /*Update Interval*/	/*Update Signal*/
   {"",    "dwmdate",        5,		              0},
+  {"",    "echo ';'",       0,                  0},
   {"",    "dwmupdates",		  5,		              0},
 	{"",    "dwmmemory",	    30,		              0},
   {"",    "dwmdisk",        60,                 0},
